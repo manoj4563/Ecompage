@@ -1,0 +1,52 @@
+.usershow-container{
+    display:flex;
+    padding:10px;
+    width:100%;
+    background-color: rgb(103, 100, 100);
+    justify-content: flex-end;
+    gap:50px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 5;
+}
+
+.Available{
+   position: absolute;
+   z-index: 3;
+   top:40px;
+   right:55px;
+   display:grid;
+   gap:2px;
+   
+   visibility: visible;
+   
+   padding: 10px;
+   border:2px solid rgb(146, 142, 142);
+   background-color: rgb(114, 111, 111);
+  
+}
+
+
+.notAvailable{
+    display: none;
+    
+}
+
+.Available button{
+    border:none;
+    background-color: rgb(158, 155, 155);
+    padding: 4px;
+    border-radius:4px;
+}
+
+.usershow-inner button{
+    padding: 7px ;
+    border-radius: 50%;
+}
+
+.usershow-cart{
+    
+   padding: 7px ;
+    border-radius: 50%;
+}

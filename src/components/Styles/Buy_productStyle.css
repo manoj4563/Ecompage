@@ -1,0 +1,28 @@
+.buy-product-container{
+    margin-top: 54px;
+   
+}
+
+.buy-product-inner{
+    display: grid;
+    
+}
+
+.buy-product-inner img{
+    width:100%;
+    height:200px;
+}
+
+.buy-product-inner span{
+    margin-left:48%;
+    margin-top: 16px;
+}
+
+.buy-product-inner button{
+    width:fit-content;
+    margin-top: 16px;
+    margin-left: 48%;
+    padding:10px;
+    border-radius: 10px;
+    color:blue
+}

@@ -1,0 +1,45 @@
+.grocery-container{
+    margin-top: 55px;
+    
+}
+
+.grocery-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.grocery-inner1 {
+    border:2px solid black;
+    height: 400px;
+    
+}
+
+.grocery-inner1 img{
+    width:100%;
+    height:40%
+}
+
+.grocery-inner1 h2,h3{
+    width:fit-content;
+    margin-left: 20%;
+}
+.grocery-inner1 p{
+    font-size: 1rem;
+}
+
+.grocery-inner1 span{
+    display: block;
+    width:fit-content;
+    font-size: 1rem;
+    color:blue;
+    margin-left: 40%;
+}
+
+.grocery-inner1 button{
+     width:fit-content;
+     padding:10px;
+     border-radius: 10px;
+     margin-left:39%;
+     margin-top:5px;
+}

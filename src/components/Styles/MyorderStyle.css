@@ -1,0 +1,25 @@
+.myorder-container{
+    margin-top: 55px;
+    
+}
+
+.myorder-inner1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.myoder-inner{
+   border:2px solid black;
+   width:100%;
+   height:400px;
+}
+
+.myoder-inner img{
+    width:100%;
+    height:70%;
+}
+
+.myoder-inner p{
+    width: fit-content;
+    margin-left: 30%;
+}

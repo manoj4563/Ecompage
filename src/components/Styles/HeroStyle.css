@@ -1,0 +1,23 @@
+.hero-container{
+    width:100%;
+    height:400px;
+    
+}
+.hero-img img{
+    width:100%;
+    height:100%;
+}
+.hero-img{
+    
+    height:100%;
+}
+
+.hero-sentence{
+   position:relative;
+   width: fit-content;
+   left:69%;
+   top:-70%;
+   height: 20%;
+   color:#eee;
+   z-index:5;
+}

@@ -1,0 +1,27 @@
+.landing-container{
+    
+    position:relative;
+    top:53px;
+    height:fit-content;
+    
+}
+
+.landing-hero-grocery{
+   
+    margin-top: 50px;
+}
+
+.landing-hero-grocery h1{
+    width: fit-content;
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+
+.landing-hero-grocery button{
+    width: fit-content;
+    margin-left: 43%;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
